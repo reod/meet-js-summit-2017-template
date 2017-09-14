@@ -1,3 +1,3 @@
-module.exports = function task() {
-  return 0;
+module.exports = function task(array) {
+  return array.sort();
 };
